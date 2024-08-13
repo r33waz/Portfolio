@@ -479,7 +479,7 @@ function Technology() {
     },
   ];
   return (
-    <div className="flex-col dark:bg-transparent bg-gray-300  flex  w-full justify-center  md:mt-0 mt-10   rounded-lg  min-h-[90vh] ">
+    <div className=" flex-col dark:bg-transparent bg-gray-300  flex  w-full justify-center  md:mt-0 mt-24 py-2   rounded-lg md:h-screen min-h-[90vh]" id="tech">
       <Fade direction="down">
         <h2 className="md:text-5xl text-2xl font-bold text-black dark:text-slate-100/50 pl-3 text-center">
           Experirence(Tech Stack)

@@ -47,7 +47,7 @@ function Project() {
   ];
 
   return (
-    <div className="flex flex-col min-h-[90vh] dark:bg-transparent bg-slate-300 py-14">
+    <div id="projects" className="flex flex-col md:min-h-[100vh] min-h-[90vh] dark:bg-transparent bg-slate-300 py-14">
       <h2 className="text-5xl font-bold text-black dark:text-slate-100/50  text-center">
         Projects
       </h2>

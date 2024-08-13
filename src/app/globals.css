@@ -9,6 +9,7 @@
   border: 0px solid #000000;
 }
 
+
 .button {
   --width: 500px;
   --height: 35px;
@@ -155,3 +156,5 @@
   animation: word 7s infinite;
   animation-delay: -5.6s;
 }
+
+
