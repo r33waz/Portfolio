@@ -42,7 +42,7 @@ function Service() {
         {services.map((service) => (
           <div
             key={service.category}
-            className={`space-y-4  rounded-md p-4 dark:shadow-[0px_2px_3px_0px_#edf2f7] shadow-[0px_2px_3px_0px_#4a5568]  duration-500 ${service?.category==="Frontend Development"?"hover:-rotate-2 bg-[url(../assets/images/front_bg.png)] bg-no-repeat bg-cover bg-center w-full":service?.category==="Backend Development"?"hover:scale-105 bg-[url(../assets/images/backend_bg.png)] bg-no-repeat bg-cover bg-center w-full":"hover:rotate-2 bg-[url(../assets/images/full_png.png)] bg-no-repeat bg-cover bg-center w-full"}`}
+            className={`text-white space-y-4  rounded-md p-4 dark:shadow-[0px_2px_3px_0px_#edf2f7] shadow-[0px_2px_3px_0px_#4a5568]  duration-500 ${service?.category==="Frontend Development"?"hover:-rotate-2 bg-[url(../assets/images/front_bg.png)] bg-no-repeat bg-cover bg-center w-full":service?.category==="Backend Development"?"hover:scale-105 bg-[url(../assets/images/backend_bg.png)] bg-no-repeat bg-cover bg-center w-full":"hover:rotate-2 bg-[url(../assets/images/full_png.png)] bg-no-repeat bg-cover bg-center w-full"}`}
           >
             <BoxReveal className={`${service.revealClass} category-reveal`}>
                 <h3 className="text-2xl font-medium ">{service.category}</h3>
