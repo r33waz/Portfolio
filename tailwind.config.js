@@ -10,7 +10,6 @@ module.exports = {
   prefix: "",
   theme: {
     container: {
-      center: true,
     },
     extend: {
       animation: {

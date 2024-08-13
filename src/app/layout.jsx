@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider>
           <NavBar />
-          <main className="w-full px-4">{children}</main>
+          <main className="px-2">{children}</main>
         </ThemeProvider>
       </body>
     </html>

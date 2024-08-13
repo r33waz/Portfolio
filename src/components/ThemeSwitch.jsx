@@ -14,7 +14,7 @@ function Themeswitcher() {
     <button className="" onClick={toggleTheme}>
       {theme === "light" ? (
         <div className="flex items-center gap-1">
-          <span className="font-medium">Dark</span>
+          <span className="md:block hidden">Dark</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"

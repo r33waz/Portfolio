@@ -9,19 +9,42 @@ import Themeswitcher from "../ThemeSwitch";
 
 function Hero() {
   return (
-    <main className="flex min-h-[90vh] flex-col justify-center items-center md:p-24 ">
-      <div className="flex items-center justify-center  gap-5  h-96 md:flex-nowrap flex-wrap">
+    <main className="flex h-screen  flex-col md:justify-center pt-10 items-center md:p-24 ">
+      <div className="flex items-center justify-center  gap-5  h-96 md:flex-nowrap flex-wrap ">
         <ProfileCard />
         <div className="flex flex-col gap-2 items-start  ">
-          <GradualSpacing text="Riwaz Thapa" />
-          <p className="md:w-[650px] text-justify">
-            A passionate beginner and aspiring full stack developer specializing
+          <div className="flex md:flex-nowrap flex-wrap">
+            <GradualSpacing text="Riwaz Thapa" />
+            <div class="text-center md:text-4xl text-lg font-semibold">
+              <div class="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden">
+                <span class="animate-word col-span-full row-span-full">
+                  React
+                </span>
+                <span class="animate-word-delay-1 col-span-full row-span-full">
+                  Next js
+                </span>
+                <span class="animate-word-delay-2 col-span-full row-span-full">
+                  Node js
+                </span>
+                <span class="animate-word-delay-3 col-span-full row-span-full">
+                  Express js
+                </span>
+                <span class="animate-word-delay-4 col-span-full row-span-full">
+                  MERN stack
+                </span>
+              </div>
+            </div>
+            <h1 className="md:text-4xl text-lg font-medium">Developer</h1>
+          </div>
+          <p className="md:w-[650px] text-justify md:text-lg text-sm w-96">
+            {/* A passionate beginner and aspiring full stack developer specializing
             in the MERN stack. Hailing from the beautiful country of Nepal, I am
             on a journey to master the art of web development and create amazing
-            applications.
+            applications. */}
+            Crafting Seamless Web Experiences with the Power of MERN.
           </p>
           <Dock
-            className=" w-full  justify-around p-2"
+            className=" md:w-full w-80  justify-around p-2"
             direction="middle"
             distance={300}
             size={60}
