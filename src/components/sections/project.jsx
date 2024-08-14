@@ -6,9 +6,17 @@ import aizone from "../../assets/images/ai-zone.png";
 import secondAutoGareImg from "../../assets/images/secound-auto-gare.png";
 import blogImg from "../../assets/images/blog-app.png";
 import addressFinderImg from "../../assets/images/address-finder.png";
+import portfolioImg from "../../assets/images/portfolio.png";
 
 function Project() {
   const projects = [
+    {
+      title: "Portfolio",
+      href: "https://portfolio-five-brown-32.vercel.app/",
+      description:
+        "My personal portfolio website",
+      src: portfolioImg,
+    },
     {
       title: "Ideapreneurnepal Gyan",
       href: "https://gyan.moneymitra.com/",
