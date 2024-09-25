@@ -7,14 +7,14 @@ import secondAutoGareImg from "../../assets/images/secound-auto-gare.png";
 import blogImg from "../../assets/images/blog-app.png";
 import addressFinderImg from "../../assets/images/address-finder.png";
 import portfolioImg from "../../assets/images/portfolio.png";
+import todoProjectImg from "../../assets/images/todoProject.png";
 
 function Project() {
   const projects = [
     {
       title: "Portfolio",
       href: "https://portfolio-five-brown-32.vercel.app/",
-      description:
-        "My personal portfolio website",
+      description: "My personal portfolio website",
       src: portfolioImg,
     },
     {
@@ -38,6 +38,12 @@ function Project() {
         "Final year project about the car renting and booking MERN stack project.",
       src: secondAutoGareImg,
     },
+    {
+      title: "Todo App Project",
+      href: "https://todo-app-frontend-puce.vercel.app/",
+      description: "Complete fullstack todo app to manage your tasks",
+      src: todoProjectImg,
+    },
 
     {
       title: "IP Address Finder",
@@ -55,7 +61,10 @@ function Project() {
   ];
 
   return (
-    <div id="projects" className="flex flex-col md:min-h-[100vh] min-h-[90vh] dark:bg-transparent bg-slate-300 py-14">
+    <div
+      id="projects"
+      className="flex flex-col md:min-h-[100vh] min-h-[90vh] dark:bg-transparent bg-slate-300 py-14"
+    >
       <h2 className="text-5xl font-bold text-black dark:text-slate-100/50  text-center">
         Projects
       </h2>
